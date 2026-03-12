@@ -22,6 +22,15 @@ public class BaseTest {
         driver.get("https://www.olx.in/");
         System.out.println("Opened OLX successfully. Page title is: " + driver.getTitle());
     }
+    =
+    @Test
+    public void searchProduct()
+    {
+        driver.get("https://www.olx.in/");
+        driver.findElement(By.id("searchBox")).sendKeys("Mobile" + Keys.ENTER);
+    }
+    @Test
+    public void 
 
     @AfterMethod
     public void tearDown() {
