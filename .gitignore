@@ -1,0 +1,8 @@
+# Ignore folder
+target/
+.idea/
+*.iml
+test-output/
+allure-results/
+allure-report/
+reports/
