@@ -49,34 +49,6 @@ Hcl-final-project/
 └── reports/screenshots/             # Auto-saved failure screenshots
 ```
 
----
-
-## 🧪 Test Cases
-
-| TC ID | Test Case | Class |
-|-------|-----------|-------|
-| TC01 | Verify OLX home page loads | `HomePageTest` |
-| TC02 | Search with valid keyword | `SearchProductTest` |
-| TC03 | Verify location filter | `SearchProductTest` |
-| TC04 | Verify price range filter | `SearchProductTest` |
-| TC05 | Verify brand filter | `SearchProductTest` |
-| TC06 | Verify combined filters | `SearchProductTest` |
-| TC07 | Verify result grid loads | `SearchProductTest` |
-| TC08 | Verify product selection | `ProductDetailsTest` |
-| TC09 | Verify product details displayed | `ProductDetailsTest` |
-| TC10 | Verify screenshot capture | `ProductDetailsTest` |
-| TC11 | Verify infinite scroll | `SearchProductTest` |
-| TC12 | Verify images load properly | `SearchProductTest` |
-| TC13 | Search with empty keyword | `HomePageTest` |
-| TC14 | Search with invalid keyword | `HomePageTest` |
-| TC15 | Invalid price range | `SearchProductTest` |
-| TC16 | Apply filter with no results | `SearchProductTest` |
-| TC17 | Broken image handling | `ProductDetailsTest` |
-| TC18 | Product details missing | `ProductDetailsTest` |
-| TC21 | Seller info unavailable | `ProductDetailsTest` |
-| TC22 | Infinite scroll failure | `ProductDetailsTest` |
-
----
 
 ## ⚙️ Configuration
 
